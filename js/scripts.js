@@ -5,16 +5,16 @@ var trackGen = function(q1, q2, q3, q4, q5, q6) {
 
   // C# 6-9 , Java 10-14 , PHP 15-19, Ruby 20-24
 
-  if (q3 != 2) { // Automatically give Java track to Mobile App Devs on Question 3
+  if (q3 != 2) { // Overrides result to give Java track to Mobile App Devs on Question 3
     if (result > 5 && result < 10) {
-    return ".c-track";
+      return ".c-track";
     } else if (result > 9 && result < 15) {
-    return ".java-track";
+      return ".java-track";
     } else if (result > 14 && result < 20) {
-    return ".php-track";
+      return ".php-track";
     } else if (result > 19) {
-    return ".ruby-track";
-  }
+      return ".ruby-track";
+    }
   } else {
     return ".java-track"
   };
