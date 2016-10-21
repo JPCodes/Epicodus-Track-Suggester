@@ -1,12 +1,12 @@
 # Epicodus Track Suggester
 
-#### Helps students pick their coursework at Epicodus, 21 Oct 2016
+#### Quizzes potential students to suggest coursework at Epicodus, 21 Oct 2016
 
 #### By Jim Padilla
 
 ## Description
 
-The web page has the user take a survey to match them to an Epicodus learning track. There are four tracks, all of which are incorporated into the quiz. The quiz itself uses a scoring system created with JavaScript.
+The web page has the user take a survey to match them to an Epicodus learning track. There are four tracks incorporated into the quiz. The quiz itself uses a scoring system created with JavaScript.
 
 ## GH-Pages
 
