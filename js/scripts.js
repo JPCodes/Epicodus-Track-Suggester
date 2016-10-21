@@ -5,7 +5,7 @@ var trackGen = function(q1, q2, q3, q4, q5, q6) {
 
   // C# 6-9 , Java 10-14 , PHP 15-19, Ruby 20-24
 
-  if (q3 != 2) { // Overrides result to give Java track to Mobile App Devs on Question 3
+  if (q3 != 2 && q3 != 2) { // Overrides result to give Java track to Mobile App Devs on Questions 1, 3
     if (result > 5 && result < 10) {
       return ".c-track";
     } else if (result > 9 && result < 15) {
