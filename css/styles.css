@@ -1,0 +1,14 @@
+/* Theme */
+
+body {
+  background: #AA3939;
+  color: #FFAAAA;
+}
+
+
+/* Track Revealer */
+
+.track {
+  display: none;
+  text-align: center;
+}

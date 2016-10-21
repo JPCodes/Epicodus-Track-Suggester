@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Epicodus Track Suggester</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <img class="img-responsive" src="img/epicodus_logo.png" alt="" />
+        </div>
+      </div>
+
+      <h1>Determine your track at Epicodus:</h1>
+      <form id="quiz">
+        <div class="row">
+          <div class="col-md-4 col-lg-4 form-group">
+            <label for="q1">Which is most true for you:</label>
+            <select id="q1" class="form-control">
+              <option value="0"></option>
+              <option value="1">You love Microsoft</option>
+              <option value="2">You want to be an Android Developer</option>
+              <option value="3">You want to build content-heavy websites with little user interaction</option>
+              <option value="4">You want a trend-setting, popular language</option>
+            </select>
+          </div>
+          <div class="col-md-4 col-lg-4 form-group">
+            <label for="q2">Which is most true for you:</label>
+            <select id="q2" class="form-control">
+              <option value="0"></option>
+              <option value="1">You want a more challenging language</option>
+              <option value="2">You want a challenging language, but not quite the most difficult that Epicodus has to offer </option>
+              <option value="3">You want a language that is not quite the easiest but will still pose some challenge</option>
+              <option value="4">You want to build with a simpler syntax that will let you focus on the final product rather than nuances</option>
+            </select>
+          </div>
+          <div class="col-md-4 col-lg-4 form-group">
+            <label for="q3">What do you want to build?</label>
+            <select id="q3" class="form-control">
+              <option value="0"></option>
+              <option value="1">Business applications for internal use</option>
+              <option value="2">Mobile Apps</option>
+              <option value="3">Websites for government organizations</option>
+              <option value="4">Websites not specializing for any particular type of customer</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 form-group">
+            <label for="q4">Who do you want to build for?</label>
+            <select id="q4" class="form-control">
+              <option value="0"></option>
+              <option value="1">Large corporations</option>
+              <option value="2">For a company specializing in Mobile applications</option>
+              <option value="3">For an agency that builds websites for other businesses</option>
+              <option value="4">Anyone</option>
+            </select>
+          </div>
+          <div class="col-md-4 col-lg-4 form-group">
+            <label for="q5">How fast do you want an initial product?</label>
+            <select id="q5" class="form-control">
+              <option value="0"></option>
+              <option value="1">I want a good product, not a fast product</option>
+              <option value="2">I want to get a good mobile product out there in a steady timeframe</option>
+              <option value="3">I want to build something quickly and with the help of pre-built templates</option>
+              <option value="4">I want to build something very quickly and fine-tune it as I go</option>
+            </select>
+          </div>
+          <div class="col-md-4 col-lg-4 form-group">
+            <label for="q6">How fun should the language be?</label>
+            <select id="q6" class="form-control">
+              <option value="0"></option>
+              <option value="1">Having a fun language is not a concern</option>
+              <option value="2">I'm okay with a boring language as long as I can build fun mobile apps with it</option>
+              <option value="3">Eh.</option>
+              <option value="4">I want a fun language; I want to enjoy my work</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">See your results</button>
+      </form>
+
+      <div class="row c-track track">
+        <div class="col-md-12 col-lg-12 track-header">
+          <h2>You should do the C&#35; track</h2>
+        </div>
+        <div class="col-md-12 col-lg-12">
+          <p>C&#35; is a challenging language with lots of nuance. Don't underestimate it.</p>
+        </div>
+      </div>
+      <div class="row java-track track">
+        <div class="col-md-12 col-lg-12 track-header">
+          <h2>You should do the Java track</h2>
+        </div>
+        <div class="col-md-12 col-lg-12">
+          <p>Java is great for mobile applications.</p>
+        </div>
+      </div>
+      <div class="row php-track track">
+        <div class="col-md-12 col-lg-12 track-header">
+          <h2>You should do the PHP track</h2>
+        </div>
+        <div class="col-md-12 col-lg-12">
+          <p>Drupal, like WordPress, allows you to use pre-built templates to make sites. It's great for this purpose.</p>
+        </div>
+      </div>
+      <div class="row ruby-track track">
+        <div class="col-md-12 col-lg-12 track-header">
+          <h2>You should do the Ruby track</h2>
+        </div>
+        <div class="col-md-12 col-lg-12">
+          <p>Ruby is the popular language that built the Ruby on Rails framework. It's fun, simple, and helps you put out a website very quickly.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
