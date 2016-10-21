@@ -2,18 +2,26 @@
 
 html {
   height: 100%;
+  background: url("../img/paint.jpg") top right repeat;
 }
 
 body {
-  border: 1.25em solid #15DEB0;
-  min-height: 100%;
+  border: 5px solid #15DEB0;
+  margin-top: 2em;
+  height: 95%;
+  width: 95%;
   color: #009876;
+  background: #fff;
+}
+
+.container {
+  height: 100%;
 }
 
 /* Logo and Header */
 
 .logo {
- width: 100%;
+ width: 90%;
 }
 
 .epicodus-logo {
@@ -31,7 +39,7 @@ h1 {
 
 .quiz {
   padding: 10px;
-  border: 3px solid #fff;
+  width: 99%;
 }
 
 .btn {
