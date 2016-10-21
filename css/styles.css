@@ -5,6 +5,29 @@ body {
   color: #FFAAAA;
 }
 
+/* Logo and Header */
+
+.epicodus-logo {
+  border: 5px solid #fff;
+  padding: 15px 30px;
+  background: #D3696C;
+  margin: 10px 0 0 0;
+}
+
+h1 {
+  margin: 25px 0;
+}
+
+/* Quiz */
+
+.quiz {
+  border: 3px solid #fff;
+  padding: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
 
 /* Track Revealer */
 
