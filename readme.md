@@ -8,6 +8,10 @@
 
 The web page has the user take a survey to match them to an Epicodus learning track. There are four tracks, all of which are incorporated into the quiz. The quiz itself uses a scoring system created with JavaScript.
 
+## GH-Pages
+
+View the project on (Github Pages)[https://jpcodes.github.io/Epicodus-Track-Suggester/]
+
 ## Setup/Installation Requirements
 
 * Modern Web Browser
