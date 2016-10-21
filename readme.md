@@ -10,7 +10,7 @@ The web page has the user take a survey to match them to an Epicodus learning tr
 
 ## GH-Pages
 
-View the project on (Github Pages)[https://jpcodes.github.io/Epicodus-Track-Suggester/]
+View the project on [Github Pages](https://jpcodes.github.io/Epicodus-Track-Suggester/)
 
 ## Setup/Installation Requirements
 
