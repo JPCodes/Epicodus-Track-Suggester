@@ -43,13 +43,13 @@ $(document).ready(function() {
 
   $("button#invert").click(function() {
 
-  $("html").addClass("invert");
+    $("html").addClass("invert");
 
   });
 
   $("button#norm").click(function() {
 
-  $("html").removeClass("invert");
+    $("html").removeClass("invert");
 
   });
 
