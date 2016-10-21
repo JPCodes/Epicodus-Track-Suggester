@@ -1,16 +1,24 @@
 /* Theme */
 
+html {
+  height: 100%;
+}
+
 body {
-  background: #AA3939;
-  color: #FFAAAA;
+  border: 1.25em solid #15deb0;
+  min-height: 100%;
+  color: #009876;
 }
 
 /* Logo and Header */
 
+.logo {
+ width: 100%;
+}
+
 .epicodus-logo {
   border: 5px solid #fff;
   padding: 15px 30px;
-  background: #D3696C;
   margin: 10px 0 0 0;
 }
 
@@ -21,8 +29,8 @@ h1 {
 /* Quiz */
 
 .quiz {
-  border: 3px solid #fff;
   padding: 10px;
+  border: 3px solid #fff;
 }
 
 .btn {
